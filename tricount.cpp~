@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+	int t, n, i, j;
+	cin >> t;
+	while(t--) {
+		cin >> n;
+		
+		cout << pow(2, n+1)-3 << "\n";
+
+	}
+	
+	return 0;
+}
